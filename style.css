@@ -149,6 +149,34 @@ body{
      height: 100%;
  }
 
+ .update_container{
+     margin: 7px;
+     padding: 7px;
+ }
+
+ .update_text{
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .update_description{
+     padding: 5px;
+     display: flex;
+     gap:5px;
+ }
+
+ .update_user_input_container{
+     padding: 3px;
+ }
+
+ #email{
+     border-color: #0084ff;
+     margin: 8px;
+     padding: 2px;
+     align-items: center;
+ }
+
+
 @media (min-width:768px){
     .navbar{
         justify-content: space-between;
@@ -212,8 +240,37 @@ body{
         width: 100%;
         font-size: 40px;
     }
-}
 
+    .update_container{
+        margin: 15px;
+        padding: 8px;
+    }
+
+    
+    .update_description{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .update_text{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .update_user_input_container{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #email{
+        width: 100%;
+        margin: 5px;
+    }
+   
+}
     @media (min-width:1020px){
         .container{
             max-width: 900px;
@@ -241,6 +298,22 @@ body{
 
         .explore_menu_text{
             font-size: 50px;
+        }
+
+        .update_description{
+            align-items: center;
+        }
+        .update_user_input_container{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            
+        }
+    
+        #email{
+            width: 100%;
+            margin: 7px;
+            padding: 6px;
         }
     }
 
